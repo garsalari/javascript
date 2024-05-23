@@ -98,3 +98,19 @@ const todos = {
   }
 }
 console.log(todos['1234-1234'].title);
+console.log('--------------------------------------');
+// opcional operator ?
+
+const opop = {
+  title: 'some',
+  pages: 5,
+  favoritos: {
+    angular: {
+      oaka: true
+    },
+    react: {
+      ok: false
+    }
+  }
+};
+console.log(opop.favoritos?.angular?.ok);
