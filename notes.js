@@ -168,3 +168,26 @@ fetch("https://jsonplaceholder.typicode.com/us ers")
   .then((data) => console.log(data));
 
 // solo una forma visual mas limpia
+console.log('--------------------------------------');
+// usando async await
+const getUser = async() => {
+  const res = await fetch("https://jsonplaceholder.typicode.com/users");
+  const data = await res.json();
+  console.log(data);
+};
+getUser();
+
+console.log('--------------------------------------');
+// PROMESAS propias
+
+const fakepro = new Promise((resolved, rejected) => {
+  setTimeout(() => {
+    resolved("hola");
+  }, 2000);
+});
+
+async function pro() {
+  const res = await fakepro;
+  console.log(res);
+}
+pro();
