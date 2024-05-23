@@ -133,3 +133,17 @@ const destru = ['uno', 'dos', 'tres'];
 const [oto, due] = destru;
 console.log(oto);
 // destrcturing con array funciona con el index
+console.log('--------------------------------------');
+// interpolation
+
+function getName(name, last) {
+  return 'hola ' + name + ' ' + last;
+}
+console.log(getName('ariel', 'garcia'));
+
+function getNameInter(name, last) {
+  return `hola ${name} ${last}`;
+}
+console.log(getNameInter('gaby','vigabriel'));
+
+// es la propiedad para concatenar cadenas de una mejor forma visual
