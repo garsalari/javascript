@@ -114,3 +114,22 @@ const opop = {
   }
 };
 console.log(opop.favoritos?.angular?.ok);
+
+console.log('--------------------------------------');
+// destructuring en objetos y arrays
+
+const dest = {
+  color: 'red',
+  tamano: 5,
+  peso: 1
+};
+
+let {peso, tamano, color} = dest;
+console.log(peso);
+console.log(color);
+// destructuring con objetos funciona con el nombre de la variable
+
+const destru = ['uno', 'dos', 'tres'];
+const [oto, due] = destru;
+console.log(oto);
+// destrcturing con array funciona con el index
