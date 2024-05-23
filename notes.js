@@ -60,4 +60,41 @@ var y = 5;
 console.log("y:",y);
 // el concepto de hoisting se basa en q las funciones y las variables VAR se declaran en el inicio 
 
+console.log('--------------------------------------');
+// objetos CONST podemos mutarlos
 
+const person = {
+  name: 'ariel',
+  lastName: 'garcia'
+}
+
+//person = ''; // Uncaught
+person.name = 'change';
+console.log(person);
+
+console.log('--------------------------------------');
+// objetons literales
+
+const frutas = ['pera', 'manzana', 'naranja'];
+console.log(frutas[1]);
+
+const animal = {
+  color: 'rojo',
+  tamano: 7,
+  peso: 12
+};
+console.log(animal);
+console.log(animal.tamano);
+console.log(animal['color']); // esto es util en el siguiente caso
+
+const todos = {
+  "1234-1234": {
+    title: 'libro1',
+    complete: true
+  },
+  "1234-1235": {
+    title: 'libro1',
+    complete: true
+  }
+}
+console.log(todos['1234-1234'].title);
