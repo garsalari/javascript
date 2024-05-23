@@ -99,7 +99,7 @@ const todos = {
 }
 console.log(todos['1234-1234'].title);
 console.log('--------------------------------------');
-// opcional operator ?
+// opcional chaining operator ?
 
 const opop = {
   title: 'some',
