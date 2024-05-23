@@ -36,3 +36,28 @@ if (true) {
 }
 console.log(varGlobal); // bma
 // VAR siempre se va como variable global
+
+console.log('--------------------------------------');
+// HOISTING
+
+var x = 5;
+
+(function () {
+  console.log("x:", x); // no obtenemos '5' sino 'undefined'
+  var x = 10;
+  console.log("x:", x); // 10
+})();
+console.log("x:",x);
+///////////////////////////////////////////////
+var y = 5;
+
+(function () {
+  var y; // Se elevo la declaración
+  console.log("y:", y); // undefined
+  y = 10;
+  console.log("y:", y); // 10
+})();
+console.log("y:",y);
+// el concepto de hoisting se basa en q las funciones y las variables VAR se declaran en el inicio 
+
+
