@@ -24,3 +24,15 @@ if (true) {
 console.log(amb);
 // let y const no permiten duplicar una variable en el mismo ambito
 // JS busca en el ambito y luego hacia arriba
+
+
+console.log('--------------------------------------');
+// ambito VAR
+
+console.log(varGlobal); // undefined
+if (true) {
+  var varGlobal = 'bma';
+  console.log(varGlobal); // bma
+}
+console.log(varGlobal); // bma
+// VAR siempre se va como variable global
