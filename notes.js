@@ -147,3 +147,24 @@ function getNameInter(name, last) {
 console.log(getNameInter('gaby','vigabriel'));
 
 // es la propiedad para concatenar cadenas de una mejor forma visual
+console.log('--------------------------------------');
+// PROMESAS
+
+let response = fetch("https://jsonplaceholder.typicode.com/users");
+
+console.log(response);
+// nos retorna una prometa en estado pendiente
+
+fetch("https://jsonplaceholder.typicode.com/us ers")
+  .then((res) => {
+    res.json().then((data) => {
+      console.log(data);
+    });
+  });
+// una forma de manejar una prometa es con then
+
+fetch("https://jsonplaceholder.typicode.com/us ers")
+  .then((res) => res.json())
+  .then((data) => console.log(data));
+
+// solo una forma visual mas limpia
