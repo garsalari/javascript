@@ -191,3 +191,39 @@ async function pro() {
   console.log(res);
 }
 pro();
+
+console.log('+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++');
+/*
+	1. Implement ES6 into the 'john' {}
+  2. Return value from the 'deduct' () after 2s
+*/
+
+var john = {
+	name: 'John Doe',
+  balance: 1500,
+  deduct: function(amount) {
+  	this.balance = this.balance - amount;
+    return this.name + ' has a balance of ' + this.balance;
+  }
+}
+
+document.body.innerText = john.deduct(200);
+
+// response
+
+const john = {
+	name: 'John Doe',
+  balance: 1500,
+  deduct(amount)  {
+    return new Promise((res, rej) => {
+      setTimeout(() =>{
+        this.balance = this.balance - amount;
+        res(`${this.name} has a balance of ${this.balance}`);
+      }, 2000);
+    });
+  }
+}
+
+john.deduct(200).then((res) => {
+  console.log(res);
+});
