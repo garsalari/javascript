@@ -227,3 +227,10 @@ const john = {
 john.deduct(200).then((res) => {
   console.log(res);
 });
+console.log('+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++');
+// 	Null vs Undefined
+undefined means a variable has been declared but has not yet been assigned a value
+null is an assignment value. It can be assigned to a variable as a representation of no value
+console.log('+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++');
+//	Hoisting
+is a mechanism where variable and function declarations are moved to the top of their containing scope during the compilation phase
