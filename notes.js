@@ -234,3 +234,9 @@ null is an assignment value. It can be assigned to a variable as a representatio
 console.log('+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++');
 //	Hoisting
 is a mechanism where variable and function declarations are moved to the top of their containing scope during the compilation phase
+console.log('+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++');
+// JSONP
+JSON y JSONP son básicamente lo mismo y lo único que los difiere es su envoltura. 
+En JSONP en lugar de enviar solo el dato, lo que se envía es una función, normalmente llamada callback,
+que es como un JavaScript que engloba el dato que hemos solicitado. Por eso, el nombre de JSONP como JSON con padding
+console.log('+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++');
