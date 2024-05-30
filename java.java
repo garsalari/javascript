@@ -4,7 +4,21 @@
 ----------------------------
 ----------------------------
 ----------------------------
-----------------------------
+----------------------------OBJECT-ORIENTED PROGRAMING PRINCIPLES
+
+Encapsulation
+  Encapsulation is a process of wrapping code and data together into a single unit.
+  This can be achieved by using private access modifiers that can’t be accessed by anything outside the class.
+  In order to access private states safely, we have to provide public getter and setter methods.
+  (In Java, these methods should follow JavaBeans naming standards.)
+Inheritance
+  Inheritance is a mechanism in which one object acquires all the states and behaviors of a parent object.
+  Inheritance uses a parent-child relationship
+Abstraction
+  Abstraction is a process of hiding the implementation details and showing only functionality to the user
+Polymorphism
+  Polymorphism is the ability of an object to take on many forms.
+
 ---------------------------- EXCEPTION TYPES
 
 USE-DEFINED EXCEPTION 
