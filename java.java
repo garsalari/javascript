@@ -2,6 +2,18 @@
 ----------------------------
 ----------------------------
 ----------------------------
+----------------------------
+----------------------------
+----------------------------
+----------------------------
+----------------------------
+----------------------------
+----------------------------
+---------------------------- DEPENDENCY INJECTION
+
+1. Inversion Of Control Principle : In simple words, it is simply externalizing the creation & management of objects.
+2. Dependency Injection : Dependency injection is basically wiring various objects altogether to support a single cause.
+
 ---------------------------- HASHSET AND TREESET
 
 HashSet stores the objects in random order, whereas TreeSet applies the natural order of the elements.
