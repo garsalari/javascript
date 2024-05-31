@@ -6,7 +6,17 @@
 ----------------------------
 ----------------------------
 ----------------------------
-----------------------------
+----------------------------ARRAYLIST VS LINKEDLIST
+
+ArrayList
+        Internally, ArrayList is using an array to implement the List interface.
+        As arrays are fixed size in Java, ArrayList creates an array with some initial capacity.
+        Along the way, if we need to store more items than that default capacity, it will replace that array with a new and more spacious one.
+LinkedList
+        LinkedList, as its name suggests, uses a collection of linked nodes to store and retrieve elements.
+        Each node maintains two pointers: one pointing to the next element and another referring to the previous one.
+        Expanding on this, the doubly linked list has two pointers pointing to the first and last items.
+
 ---------------------------- CHARACTERISTICS OF GOOD TEST
 
 Fast
