@@ -2,7 +2,15 @@
 ----------------------------
 ----------------------------
 ----------------------------
-----------------------------
+---------------------------- HASHSET AND TREESET
+
+HashSet stores the objects in random order, whereas TreeSet applies the natural order of the elements.
+Another difference is that HashSet can store null objects, while TreeSet does not allow them.
+Simply put, HashSet is faster than the TreeSet.
+HashSet provides constant-time performance for most operations like add(), remove() and contains(), versus the log(n) time offered by the TreeSet.
+
+Both TreeSet and HashSet guarantee a duplicate-free collection of elements, as it is a part of the generic Set interface.
+
 ----------------------------GABAGE COLLECTION
 
 Automatic garbage collection is the process of looking at heap memory, identifying which objects are in use and which are not,
