@@ -7,8 +7,35 @@
 ----------------------------
 ----------------------------
 ----------------------------
-----------------------------
-----------------------------
+---------------------------- CHARACTERISTICS OF GOOD TEST
+
+Fast
+    As you learn more about tests in the context of full-stack web applications, you will find that some types of tests,
+    called unit tests, are fast, while other tests, called integration tests, are slower.
+    If your test suite contains a large collection of integration tests, and few unit tests,
+    you may end up waiting a few minutes or even hours for your test suite to execute.
+Complete
+    A test suite that covers 100% of your codebase will catch any errors that arise from changing or adding code application.
+    A complete test suite provides you with confidence that your software is working as expected.
+    This characteristic can often run in conflict with building a fast test suite — as you investigate testing further,
+    you will learn about strategies that help you optimize your test suite for speed and completeness.
+Reliable
+    A reliable test suite is one that provides consistent feedback, regardless of changes that may occur outside the scope of a given test.
+    An unreliable test suite may have tests that fail intermittently, with no helpful feedback about changes you’ve made to your application.
+Isolated
+    An isolated test suite contains tests that run without impacting other tests in the suite.
+    This may require you to cleanup persisting data after you run a test in your suite.
+Maintainable
+    A maintainable test suite is easy to manipulate — you should be able to add, change, or remove tests with ease.
+    If you don’t know how to add tests to run against new features, your test suite may become incomplete and ineffective.
+Expressive
+    The easy-to-read nature of test suites make them a great form of documentation.
+    You should always write code that is descriptive of the features you are testing.
+
+---------------------------- SPRING PROFILE
+
+allowing us to map our beans to different profiles — for example, dev, test, and prod.
+
 ---------------------------- DEPENDENCY INJECTION
 
 1. Inversion Of Control Principle : In simple words, it is simply externalizing the creation & management of objects.
