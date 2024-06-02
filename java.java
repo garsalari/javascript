@@ -4,8 +4,19 @@
 ----------------------------
 ----------------------------
 ----------------------------
-----------------------------
-----------------------------
+---------------------------- testing pyramid
+
+The testing pyramid is a concept that allows us to verify several levels of a candidate’s knowledge.
+Being able to identify all the layers (unit testing, integration testing, UI testing) should be enough for a junior developer,
+but for more experienced candidates, it’s better to make sure they have also implemented some of those using different tools or technologies.
+
+---------------------------- Merge vs rebase
+
+When it’s not possible to merge two branches because of conflicts, developers have two options: merging or rebasing.
+A rebase may be needed when reserving a clean Git history is important. Rebasing means to move the base of a branch on top of the leaf of another.
+Instead of having branches intersect multiple times, you can have a clean Git history, as long as everyone follows the golden rule of rebasing:
+never rebase a public branch.
+
 ----------------------------ARRAYLIST VS LINKEDLIST
 
 ArrayList
