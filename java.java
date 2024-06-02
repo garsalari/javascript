@@ -3,7 +3,15 @@
 ----------------------------
 ----------------------------
 ----------------------------
-----------------------------
+---------------------------- How to sort HashSet of integers?
+
+This is a tricky question, as the Set is by default an unordered structure. So the answer is simply no unless we use an additional data structure.
+
+Starting from this question, it’s possible to:
+
+Investigate the candidate's knowledge of Java collections. TreeSet, LinkedHashSet, and List are only some of the possible solutions.
+Proceed further with HashSet's internal checks. Why do you think Sets are unordered? Why is it called a HASH set?
+
 ---------------------------- testing pyramid
 
 The testing pyramid is a concept that allows us to verify several levels of a candidate’s knowledge.
