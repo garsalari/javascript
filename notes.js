@@ -134,6 +134,8 @@ const [oto, due] = destru;
 console.log(oto);
 // destrcturing con array funciona con el index
 console.log('--------------------------------------');
+// Back-Tics Syntax 
+	Template Strings use back-ticks (``) rather than the quotes ("") to define a string:
 // interpolation
 
 function getName(name, last) {
